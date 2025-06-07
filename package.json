@@ -1,0 +1,32 @@
+{
+  "name": "bagl-backend",
+  "version": "1.0.0",
+  "description": "This website showcases cutting-edge research from Vanderbilt University's BAGL Lab. It provides open access to the lab’s publications and uses AI-powered tools to help users search, understand, and engage with the content—making advanced biomedical research more accessible than ever.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cojobro/bagl-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cojobro/bagl-backend/issues"
+  },
+  "homepage": "https://github.com/cojobro/bagl-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "openai": "^5.1.1",
+    "pg": "^8.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
