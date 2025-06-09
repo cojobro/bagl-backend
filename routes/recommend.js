@@ -53,7 +53,7 @@ router.post("/", async (req, res) => {
       FROM papers
       WHERE ($1::int IS NULL OR id <> $1::int)
       ORDER BY cosine_distance(embedding, ${embSql})
-      LIMIT 3;
+      LIMIT 4;
     `;
 
     // If paperId is undefined, pass null -> all rows will match
